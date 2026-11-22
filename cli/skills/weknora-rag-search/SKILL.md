@@ -74,3 +74,12 @@ weknora chat "And the max attempts?" --kb engineering --session sess_abc
 # answer via a custom agent
 weknora session ask --agent ag_123 "Summarize this quarter's incidents"
 ```
+
+<!-- AUTO_SYNC_SWP_CAPABILITIES_START -->
+## Auto-Synced SWP Capabilities & Use-Case Deltas (`GW-SWP-REGISTRY-UC-SYNC-01`)
+- **Control-Tower Task**: `53.ACT.668` (`10_SPECS/SPEC-PORTFOLIO-WKU.md`)
+- **Source Repositories**: `titanwings/distilly`
+- **Impact Tier**: `TIER_2` | **Mapped SWP IDs**: `SWP-DST-13, SWP-DST-17, SWP-DST-18, SWP-DST-19`
+- **Adoption Rationale**: Isolated MCP env, read-only MCP fixture tests, HOME portability & multi-lang doc parity.
+- **Capability Requirement (`CAP-WKU-DISTILLY`)**: Enforce SWP-DST-13, SWP-DST-17, SWP-DST-18, SWP-DST-19 deterministic invariants in this spoke's UCs and automated regression tests.
+<!-- AUTO_SYNC_SWP_CAPABILITIES_END -->
